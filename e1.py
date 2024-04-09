@@ -25,7 +25,7 @@ def check_parity():
     print("2) even parity")
     parity=int(input("enter the parity:"))
 
-    if(value.count('1')%2==0 and parity==2) or (value.count('1')%2==1):
+    if(value.count('1')%2==0 and parity==2) or (value.count('1')%2==1 and parity==1):
         print("the data is correct")
     else:
         print("the data is not correct")
